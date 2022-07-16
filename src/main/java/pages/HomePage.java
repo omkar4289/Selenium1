@@ -7,7 +7,7 @@ import org.openqa.selenium.support.PageFactory;
 
 public class HomePage {
 	
-	//second commit1,2
+	//second commit1,2,3
 	
 	@FindBy(xpath="//*[@id='welcome']")
 	private WebElement userMenu;
