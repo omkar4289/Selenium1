@@ -18,7 +18,7 @@ public class BaseTest {
   
   @BeforeSuite
   public void initBrowser() {
-	  
+	  //added dummy comment
 	  WebDriverManager.chromedriver().setup();
 
 		// Step -1 Launch browser
