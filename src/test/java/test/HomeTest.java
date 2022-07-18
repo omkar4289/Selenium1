@@ -29,6 +29,7 @@ public class HomeTest extends BaseTest {
 	
 	HomePage hp; 
 	LoginPage lp;
+	
 	   
 	 @BeforeClass
 	
@@ -42,16 +43,9 @@ public class HomeTest extends BaseTest {
 		  lp=new LoginPage(driver);
 		 
 	  }
-	 @BeforeMethod
 	 
-	  public void login() {
-		
-		  lp.enterCred("Admin", "admin123");
-		  lp.clcikButton();
-		 
-	  }
   @Test
-  public void logout(Method method) {
+  public void logout() {
 	
 	  hp.logout();
 	

@@ -11,7 +11,7 @@
           <include name="login"/>
           <include name="tearDown"/>
           <include name="initBrowser"/>
-          <include name="logout" invocation-numbers="0"/>
+          <include name="logout"/>
           <include name="initObject"/>
         </methods>
       </class> <!-- test.HomeTest -->
