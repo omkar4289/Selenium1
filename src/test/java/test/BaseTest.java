@@ -20,6 +20,8 @@ public class BaseTest {
   public void initBrowser() {
 	  //added dummy comment
 	  WebDriverManager.chromedriver().setup();
+	  
+	  //added comment here
 
 		// Step -1 Launch browser
 		driver = new ChromeDriver();
