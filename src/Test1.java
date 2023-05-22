@@ -51,8 +51,8 @@ public class Test1 {
 		
 	alt.accept();
 	
-	Test1 obj=new Test1();
-    obj.captureScreen(driver);
+	Test1 obj1=new Test1();
+    obj1.captureScreen(driver);
 	
 	}
 
